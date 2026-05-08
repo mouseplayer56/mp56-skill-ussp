@@ -20,4 +20,5 @@
 				"patchnotes": "https://raw.githubusercontent.com/mouseplayer56/mp56-skill-ussp/refs/heads/main/changelog.html"
 			}
 		}
+	]
 }
