@@ -1,0 +1,12 @@
+[3.0]
+Discarded the previous solution to use an in-built SuperBLT method, Utils:IsInHeist(), to determine if the user is actively playing (i.e., can't switch loadout). Truncated some aspects of target_time to update via the on_damage_taken() internal function.
+
+Updated mod.txt with an image and a suitable auto-update source. Added GitHub page for continued support.
+
+[2.0]
+Incorporates https://modworkshop.net/mod/16616 solution by Hugo that fixes a base-game problem with the skill being accounted for before it is necessary (i.e., before playing a game). Adapted, for simplicity.
+
+while true do -> while BaseNetworkHandler._gamestate_filter.any_ingame_playing[ game_state_machine:last_queued_state_name() ] do
+
+[1.0]
+Release
