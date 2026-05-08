@@ -15,9 +15,9 @@
 		{
 			"identifier": "mp56_skill_ussp",
 			"host": {
-				"meta": "",
-				"download": "",
-				"patchnotes": ""
+				"meta": "https://raw.githubusercontent.com/mouseplayer56/mp56-skill-ussp/refs/heads/main/meta.json",
+				"download": "https://github.com/mouseplayer56/mp56-skill-ussp/releases",
+				"patchnotes": "https://raw.githubusercontent.com/mouseplayer56/mp56-skill-ussp/refs/heads/main/changelog.html"
 			}
 		}
 }
