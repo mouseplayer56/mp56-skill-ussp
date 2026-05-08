@@ -1,0 +1,23 @@
+{
+	"name": "Unseen Strike Sustainability Patch",
+	"description": "Allows Unseen Strike to activate continuously, without the initial damage requirement, by letting the cooldown be activated every time it ends. Basic gives you 6s/10s usage (~60%), and Aced gives you ~18s/22s usage (~80%).",
+	"author": "mouseplayer56",
+	"contact": "https://modworkshop.net/user/mouseplayer56",
+	"version": "3.0",
+    	"image": "ussp_thumbnail.jpg",
+	"hooks": [
+		{
+			"hook_id": "lib/player_actions/skills/playeractionunseenstrike",
+			"script_path": "us_main.lua"
+		}
+	]
+	"updates": [
+		{
+			"identifier": "mp56_skill_ussp",
+			"host": {
+				"meta": "",
+				"download": "",
+				"patchnotes": ""
+			}
+		}
+}
